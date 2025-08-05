@@ -16,5 +16,6 @@ sassVariables: fileURLToPath(
 new URL('./src/quasar-variables.sass', import.meta.url)
 )
  })
-]
+],
+ base:"https://karitozleal2025.github.io/HOTELTERRA/"
 })
