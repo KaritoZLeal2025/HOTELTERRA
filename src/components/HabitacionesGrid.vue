@@ -50,7 +50,7 @@ export default {
       {
         id: 1,
         nombre: 'Habitación Clásica Toscana',
-        imagen: '/images/habitacion1.jpeg',
+        imagen: 'https://i.pinimg.com/736x/be/b1/09/beb10947b62699af6031ee12b0e46289.jpg',
         capacidad: 2,
         tamano: '28 m²',
         precio: 120,
@@ -61,7 +61,7 @@ export default {
       {
         id: 2,
         nombre: 'Suite Premium Rústica',
-        imagen: '/images/habitacion2.jpeg',
+        imagen: 'https://i.pinimg.com/1200x/39/bb/09/39bb09c815f4015f0d603ffac296c714.jpg',
         capacidad: 2,
         tamano: '45 m²',
         precio: 180,
@@ -72,7 +72,7 @@ export default {
       {
         id: 3,
         nombre: 'Habitación Familiar Tradicional',
-        imagen: '/images/habitacion3.jpeg',
+        imagen: 'https://i.pinimg.com/1200x/83/db/ed/83dbedade6dd493051ecc68283ad094f.jpg',
         capacidad: 4,
         tamano: '55 m²',
         precio: 220,
@@ -83,7 +83,7 @@ export default {
       {
         id: 4,
         nombre: 'Suite de Lujo "Bella Vista"',
-        imagen: '/images/habitacion4.jpeg',
+        imagen: 'https://i.pinimg.com/1200x/07/6d/3b/076d3b801fa418a52aa855e25cecee0b.jpg',
         capacidad: 2,
         tamano: '65 m²',
         precio: 280,
@@ -94,7 +94,7 @@ export default {
       {
         id: 5,
         nombre: 'Habitación "Olivo"',
-        imagen: '/images/habitacion5.jpeg',
+        imagen: 'https://i.pinimg.com/736x/1e/2a/c5/1e2ac5edb56b0188234a7fdfb16a862e.jpg',
         capacidad: 2,
         tamano: '32 m²',
         precio: 95,
@@ -105,7 +105,7 @@ export default {
       {
         id: 6,
         nombre: 'Villa Privada "Borgo Antico"',
-        imagen: '/images/habitacion6.jpeg',
+        imagen: 'https://i.pinimg.com/736x/e7/9c/01/e79c01040d009517c99d6d4f6ad0ab33.jpg',
         capacidad: 6,
         tamano: '120 m²',
         precio: 450,
