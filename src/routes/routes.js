@@ -28,6 +28,11 @@ const routes = [
     component: HabitacionesPage
   },
   {
+    path: '/gastronomia',
+    name: 'gastronomia',
+    component: GastronomiaPage
+  },
+  {
     path: '/deportes',
     name: 'deportes',
     component: DeportesPage
