@@ -34,9 +34,7 @@
         {{ habitacion.nombre }}
       </div>
       
-      <div class="row items-center q-mt-sm text-grey-7">
-        <q-icon name="square_foot" size="sm" class="q-mr-xs" />
-        <span class="text-subtitle2 charm-regular">{{ habitacion.tamano }}</span>
+    
         
         <q-space />
         
@@ -49,7 +47,6 @@
             size="sm"
           />
         </div>
-      </div>
     </q-card-section>
 
     <q-card-actions class="q-px-md q-pb-md">
