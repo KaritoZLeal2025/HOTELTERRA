@@ -1,13 +1,19 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import HomePage from '../pages/HomePage.vue' 
-import HabitacionesPage from '../components/HabitacionesPage.vue'
-import GastronomiaPage from '../components/GastronomiaPage.vue' 
-import ServiciosPage from '../components/ServiciosPage.vue'
-import DeportesPage from '../components/DeportesPage.vue'
-import ImagenesGrid from "../components/ImagenesGrid.vue"
-import Ventas from "../components/Ventas.vue"
-import Productos from "../components/Productos.vue"
 
+import HomePage from '../pages/HomePage.vue'
+import HabitacionesPage from '../components/HabitacionesPage.vue'
+import DeportesPage from '../components/DeportesPage.vue'
+import DeportesGrid from '../components/DeportesGrid.vue'
+import DeportesHero from '../components/DeportesHero.vue'
+import DeporteDetalle from '../components/DeporteDetalle.vue'
+import ServiciosPage from '../components/ServiciosPage.vue'
+import ServicioCard from '../components/ServicioCard.vue'
+import ServiciosGrid from '../components/ServiciosGrid.vue'
+import ServicioDetalle from '../components/ServicioDetalle.vue'
+import ServiciosAdicionales from '../components/ServiciosAdicionales.vue'
+import ImagenesGrid from '../components/ImagenesGrid.vue'
+import Ventas from '../components/Ventas.vue'
+import Productos from '../components/Productos.vue'
 
 const routes = [
   {
@@ -15,33 +21,61 @@ const routes = [
     name: 'home',
     component: HomePage
   },
-    
-
   {
     path: '/habitaciones',
     name: 'habitaciones',
     component: HabitacionesPage
   },
   {
-    path: '/gastronomia', 
-    name: 'gastronomia',
-    component: GastronomiaPage
-  },
-
-   {
-    path: '/servicios', 
-    name: 'servicios',
-    component: ServiciosPage
-  },
-
-
-   {
-    path: '/deportes', 
+    path: '/deportes',
     name: 'deportes',
     component: DeportesPage
   },
   {
-    path: "/imagenes-grid",
+    path: '/deportes/grid',
+    name: 'deportes-grid',
+    component: DeportesGrid
+  },
+  {
+    path: '/deportes/hero',
+    name: 'deportes-hero',
+    component: DeportesHero
+  },
+  {
+    path: '/deportes/:id',
+    name: 'deporte-detalle',
+    component: DeporteDetalle,
+    props: true
+  },
+
+  {
+  path: '/servicios',
+  name: 'Servicios',
+  component: ServiciosPage
+},
+  {
+    path: '/servicios/grid',
+    name: 'servicios-grid',
+    component: ServiciosGrid
+  },
+  {
+    path: '/servicio/card',
+    name: 'servicio-card',
+    component: ServicioCard
+  },
+    {
+    path: '/servicios/:id',
+    name: 'servicio-detalle',
+    component: ServicioDetalle,
+    props: true
+  },
+  {
+    path: '/servicios/adicionales',
+    name: 'servicios-adicionales',
+    component: ServiciosAdicionales,
+  },
+  {
+    path: '/imagenes-grid',
     name: 'imagenes-grid',
     component: ImagenesGrid,
     props: {
@@ -52,15 +86,15 @@ const routes = [
       ]
     }
   },
-  { 
-    path: "/ventas", 
+  {
+    path: '/ventas',
     name: 'ventas',
-    component: Ventas 
+    component: Ventas
   },
-  { 
-    path: "/productos", 
+  {
+    path: '/productos',
     name: 'productos',
-    component: Productos 
+    component: Productos
   }
 ]
 
