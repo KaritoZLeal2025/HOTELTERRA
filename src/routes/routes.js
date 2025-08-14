@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 import HomePage from '../pages/HomePage.vue'
 import HabitacionesPage from '../components/HabitacionesPage.vue'
+import GastronomiaPage from '../components/GastronomiaPage.vue' 
 import DeportesPage from '../components/DeportesPage.vue'
 import DeportesGrid from '../components/DeportesGrid.vue'
 import DeportesHero from '../components/DeportesHero.vue'
