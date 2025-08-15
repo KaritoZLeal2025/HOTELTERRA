@@ -60,7 +60,7 @@ export default {
       {
         id: 4,
         nombre: 'Transporte',
-        imagen: 'https://i.pinimg.com/1200x/d6/e1/99/d6e19966d032fd2af8b2429d05ad235d.jpg',
+        imagen: 'https://i.pinimg.com/1200x/33/b4/7c/33b47cb4653af482b907e066482f7d43.jpg',
         estrellas: 5,
         precio: 50,
         descripcion: 'Contamos con traslados cómodos y seguros al aeropuerto, alquiler de vehículos y servicio de taxis para que explores la ciudad con total tranquilidad.'
