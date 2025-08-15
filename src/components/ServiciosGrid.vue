@@ -62,7 +62,7 @@ export default {
       {
         id: 4,
         nombre: 'Transporte',
-        imagen: 'https://i.pinimg.com/736x/2d/5b/15/2d5b15f202ca1c6047c5729ae041a343.jpg',
+        imagen: 'https://i.pinimg.com/1200x/4b/d5/e4/4bd5e40dd789413ce1a66e085a229c3b.jpg',
         estrellas: 5,
         precio: 50,
         descripcion: 'El transporte privado puede ser en vehículos particulares o servicios como transporte especial'
